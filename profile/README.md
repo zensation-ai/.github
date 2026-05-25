@@ -10,11 +10,11 @@ We build memory systems that help AI agents remember like humans do — with spa
 The neuroscience-inspired memory system for AI agents. 7-layer architecture with FSRS, Hebbian dynamics, and emotional memory.
 
 ```bash
-npm install @zenbrain/algorithms
+npm install @zensation/algorithms
 ```
 
-### 🤖 ZenAI *(Coming Soon)*
-Self-hosted AI OS powered by ZenBrain. 170K LOC, 9,228 tests, 55 AI tools.
+### 🤖 [ZenAI](https://github.com/zensation-ai/zenai)
+The self-hosted AI OS powered by ZenBrain — multi-agent system, knowledge graph, and persistent memory. Ships the [`@zensation/cli`](https://www.npmjs.com/package/@zensation/cli) terminal agent.
 
 ---
 
