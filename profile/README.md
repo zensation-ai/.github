@@ -8,7 +8,7 @@ Every number on this page is backed by a public record, a passing test suite, or
 
 - In a controlled, same-budget benchmark judged by independent LLM judges, ZenBrain wins **all nine answer-quality head-to-head comparisons** (3 competitors × 3 judges) against Letta, Mem0 and A-Mem — and the paper also prints where it loses: retrieval-proper metrics to a competing system, an aggregate-F1 metric to lexical search.
 - The memory library is **extracted from a production platform** (440K+ LOC, 12,000+ tests) — not a research toy. Building it from source yields the exact 152-file tarball published on npm.
-- The research trail is fully public: **12 open records** with DOIs, an arXiv preprint, defensive publications establishing prior art, reproduction material with the records.
+- The research trail is fully public: **17 open records** with DOIs, an arXiv preprint, defensive publications establishing prior art, reproduction material with the records.
 
 ## Use it
 
@@ -31,7 +31,7 @@ The self-hosted AI OS ZenBrain was extracted from: 60 AI tools, multi-agent syst
 ## Check it
 
 - **Preprint:** [arXiv:2604.23878](https://arxiv.org/abs/2604.23878) — *ZenBrain: A Neuroscience-Inspired 7-Layer Memory Architecture for Autonomous AI Systems*
-- **Corpus:** [**12 open records**](https://zensation.ai/en/publikationen) on Zenodo — ten preprints and two software / reproduction packages, all CC BY 4.0, each with its own version and concept DOI
+- **Corpus:** [**17 open records**](https://zensation.ai/en/publikationen) on Zenodo — fifteen preprints and two software / reproduction packages, all CC BY 4.0, each with its own version and concept DOI
 - **Author ID:** [ORCID 0009-0001-1793-012X](https://orcid.org/0009-0001-1793-012X)
 - **Prior art:** defensive publications on [Technical Disclosure Commons](https://www.tdcommons.org)
 - Benchmarks are reported with the protocol, the effect sizes and the cases where the system loses. Reproduction material ships with the records.
