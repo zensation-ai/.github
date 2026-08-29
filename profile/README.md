@@ -8,7 +8,7 @@ Every number on this page is backed by a public record, a passing test suite, or
 
 - In a controlled, same-budget benchmark judged by independent LLM judges, ZenBrain wins **all nine answer-quality head-to-head comparisons** (3 competitors × 3 judges) against Letta, Mem0 and A-Mem — and the paper also prints where it loses: retrieval-proper metrics to a competing system, an aggregate-F1 metric to lexical search.
 - The memory library is **extracted from a production platform** (440K+ LOC, 12,000+ tests) — not a research toy. Building it from source yields the exact 152-file tarball published on npm.
-- The research trail is fully public: **17 open records** with DOIs, an arXiv preprint, defensive publications establishing prior art, reproduction material with the records.
+- The research trail is fully public: **17 open records** with DOIs, an arXiv preprint, and defensive publications establishing prior art.
 
 ## Use it
 
