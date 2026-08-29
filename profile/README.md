@@ -35,7 +35,7 @@ The self-hosted AI OS ZenBrain was extracted from: 60 AI tools, multi-agent syst
 - **Corpus:** [**17 open records**](https://zensation.ai/en/publikationen) on Zenodo — fifteen preprints and two software / reproduction packages, all CC BY 4.0, each with its own version and concept DOI
 - **Author ID:** [ORCID 0009-0001-1793-012X](https://orcid.org/0009-0001-1793-012X)
 - **Prior art:** defensive publications on [Technical Disclosure Commons](https://www.tdcommons.org)
-- Benchmarks are reported with the protocol, the effect sizes and the cases where the system loses. Reproduction material ships with the records.
+- Benchmarks are reported with the protocol, the effect sizes and the cases where the system loses — including the metric on which a competing system wins.
 
 ## Work with us
 
