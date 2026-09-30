@@ -7,14 +7,14 @@ Every number on this page is backed by a public record, a passing test suite, or
 ## What we have shown
 
 - In a controlled, same-budget benchmark judged by independent LLM judges, **three of nine answer-quality head-to-head comparisons hold** for ZenBrain against Letta, Mem0 and A-Mem — all three against A-Mem, the remaining six are ties, none lost (3 competitors × 3 judges, Bonferroni-corrected, version-matched) — and the paper also prints where it loses: retrieval-proper metrics to a competing system, an aggregate-F1 metric to lexical search.
-- The memory library is **extracted from a production platform** (440K+ LOC, 12,000+ tests) — not a research toy. Building it from source yields the exact 153-file `@zensation/algorithms@0.4.2` tarball published on npm.
-- The research trail is fully public: **24 open records** with DOIs, an arXiv preprint, and defensive publications establishing prior art.
+- The memory library is **extracted from a production platform** (440K+ LOC, 12,000+ tests) — not a research toy. Every release is built in public CI and published to npm with build provenance, so each package traces back to its commit.
+- The research trail is fully public: **open records** with DOIs, an arXiv preprint, and defensive publications establishing prior art.
 
 ## Use it
 
 ### 🧠 [ZenBrain](https://github.com/zensation-ai/zenbrain) — memory for AI agents
 
-7 layers, FSRS spaced repetition, Hebbian learning, emotional tagging, sleep consolidation. Pure TypeScript, zero dependencies, 528 tests.
+7 layers, FSRS spaced repetition, Hebbian learning, emotional tagging, sleep consolidation. Pure TypeScript, zero dependencies, tested in CI on Node 22, 24 and 26.
 
 ```bash
 npm install @zensation/algorithms
@@ -32,7 +32,7 @@ The self-hosted AI OS ZenBrain was extracted from: 60 AI tools, multi-agent syst
 ## Check it
 
 - **Preprint:** [arXiv:2604.23878](https://arxiv.org/abs/2604.23878) — *ZenBrain: A Neuroscience-Inspired 7-Layer Memory Architecture for Autonomous AI Systems*
-- **Corpus:** [**24 open records**](https://zensation.ai/en/publikationen?utm_source=github&utm_medium=profil&utm_campaign=evergreen) on Zenodo — nineteen preprints and five software / reproduction packages, every preprint under CC BY 4.0, each with its own version and concept DOI
+- **Corpus:** [**Open records**](https://zensation.ai/en/publikationen?utm_source=github&utm_medium=profil&utm_campaign=evergreen) on Zenodo — preprints and software / reproduction packages, every preprint under CC BY 4.0, each with its own version and concept DOI
 - **Author ID:** [ORCID 0009-0001-1793-012X](https://orcid.org/0009-0001-1793-012X)
 - **Prior art:** defensive publications on [Technical Disclosure Commons](https://www.tdcommons.org)
 - Benchmarks are reported with the protocol, the effect sizes and the cases where the system loses — including the metric on which a competing system wins.
