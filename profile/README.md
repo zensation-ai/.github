@@ -32,7 +32,7 @@ The self-hosted AI OS ZenBrain was extracted from: 60 AI tools, multi-agent syst
 ## Check it
 
 - **Preprint:** [arXiv:2604.23878](https://arxiv.org/abs/2604.23878) — *ZenBrain: A Neuroscience-Inspired 7-Layer Memory Architecture for Autonomous AI Systems*
-- **Corpus:** [**Open records**](https://zensation.ai/en/publikationen?utm_source=github&utm_medium=profil&utm_campaign=evergreen) on Zenodo — preprints and software / reproduction packages, every preprint under CC BY 4.0, each with its own version and concept DOI
+- **Corpus:** [**Open records**](https://zensation.ai/en/publikationen?utm_source=github&utm_medium=profil&utm_campaign=evergreen) on Zenodo — preprints, software / reproduction packages, datasets and notes, every preprint under CC BY 4.0, each with its own version and concept DOI
 - **Author ID:** [ORCID 0009-0001-1793-012X](https://orcid.org/0009-0001-1793-012X)
 - **Prior art:** defensive publications on [Technical Disclosure Commons](https://www.tdcommons.org)
 - Benchmarks are reported with the protocol, the effect sizes and the cases where the system loses — including the metric on which a competing system wins.
