@@ -7,7 +7,7 @@ Every number on this page is backed by a public record, a passing test suite, or
 ## What we have shown
 
 - In a controlled, same-budget benchmark judged by independent LLM judges, **three of nine answer-quality head-to-head comparisons hold** for ZenBrain against Letta, Mem0 and A-Mem — all three against A-Mem, the remaining six are ties, none lost (3 competitors × 3 judges, Bonferroni-corrected, version-matched) — and the paper also prints where it loses: retrieval-proper metrics to a competing system, an aggregate-F1 metric to lexical search.
-- The memory library is **extracted from a production platform** (440K+ LOC, 12,000+ tests) — not a research toy. Every release is built in public CI and published to npm with build provenance, so each package traces back to its commit.
+- The memory library is **extracted from a production platform** (440K+ LOC, 12,000+ tests as of August 2026) — not a research toy. Releases are built in public CI, and the current version of every package is published to npm with build provenance, so it traces back to its commit.
 - The research trail is fully public: **open records** with DOIs, an arXiv preprint, and defensive publications establishing prior art.
 
 ## Use it
@@ -27,7 +27,7 @@ npm install @zensation/algorithms
 
 ### 🤖 [ZenAI](https://github.com/zensation-ai/zenai) — the platform it came from
 
-The self-hosted AI OS ZenBrain was extracted from: 60 AI tools, multi-agent system, knowledge graph, real-time voice. Published as a frozen, readable snapshot (8 May 2026); it ships the [`@zensation/cli`](https://www.npmjs.com/package/@zensation/cli) terminal agent.
+The self-hosted AI OS ZenBrain was extracted from: 60 AI tools, multi-agent system, knowledge graph, real-time voice. Published as a frozen, readable snapshot (8 May 2026). Its terminal agent [`@zensation/cli`](https://www.npmjs.com/package/@zensation/cli) is retired and deprecated on npm since 1 October 2026; the maintained memory tooling is [`@zensation/mcp`](https://www.npmjs.com/package/@zensation/mcp).
 
 ## Check it
 
