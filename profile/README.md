@@ -6,7 +6,7 @@ Every number on this page is backed by a public record, a passing test suite, or
 
 ## What we have shown
 
-- In a controlled, same-budget benchmark judged by independent LLM judges, **three of nine answer-quality head-to-head comparisons hold** for ZenBrain against Letta, Mem0 and A-Mem — all three against A-Mem, the remaining six are ties, none lost (3 competitors × 3 judges, Bonferroni-corrected, version-matched) — and the paper also prints where it loses: retrieval-proper metrics to a competing system, an aggregate-F1 metric to lexical search.
+- In a controlled, same-budget benchmark judged by independent LLM judges, **three of nine head-to-head comparisons hold** for ZenBrain against Letta, Mem0 and A-Mem — all three against A-Mem, the remaining six are ties, none lost (3 competitors × 3 judges, Bonferroni-corrected, version-matched) — and the paper also prints where it loses: retrieval-proper metrics to a competing system, an aggregate-F1 metric to lexical search.
 - The memory library is **extracted from a production platform** (440K+ LOC, 12,000+ tests as of August 2026) — not a research toy. Releases are built in public CI, and the current version of every package is published to npm with build provenance, so it traces back to its commit.
 - The research trail is fully public: **open records** with DOIs, an arXiv preprint, and defensive publications establishing prior art.
 
