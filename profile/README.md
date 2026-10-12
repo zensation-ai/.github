@@ -22,7 +22,7 @@ npm install @zensation/algorithms
 
 - **[Try it in your browser](https://zensation.ai/en/playground?utm_source=github&utm_medium=profil&utm_campaign=evergreen)** — runs the published code, no install.
 - Packages: [`@zensation/algorithms`](https://www.npmjs.com/package/@zensation/algorithms) · [`@zensation/core`](https://www.npmjs.com/package/@zensation/core) · [`@zensation/adapter-postgres`](https://www.npmjs.com/package/@zensation/adapter-postgres) · [`@zensation/adapter-sqlite`](https://www.npmjs.com/package/@zensation/adapter-sqlite)
-- Drop it into what you already use: [`@zensation/mcp`](https://www.npmjs.com/package/@zensation/mcp) gives any Model Context Protocol client the seven layers as four tools; [`@zensation/ai-sdk`](https://www.npmjs.com/package/@zensation/ai-sdk) is Vercel AI SDK middleware that recalls before the model call and stores the turn after it.
+- Drop it into what you already use: [`@zensation/mcp`](https://www.npmjs.com/package/@zensation/mcp) gives any Model Context Protocol client the seven layers as five tools; [`@zensation/ai-sdk`](https://www.npmjs.com/package/@zensation/ai-sdk) is Vercel AI SDK middleware that recalls before the model call and stores the turn after it.
 - New here? Pick a [good first issue](https://github.com/zensation-ai/zenbrain/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) or ask in [Discussions](https://github.com/zensation-ai/zenbrain/discussions).
 
 ### 🗳️ [voteworth](https://github.com/zensation-ai/voteworth) — the effective number of independent votes in an LLM judge panel
