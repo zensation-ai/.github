@@ -31,7 +31,7 @@ claude plugin install zenbrain --marketplace zensation-ai/zenbrain    # memory f
 Measure error correlation in an LLM judge panel or voter ensemble, report the effective number of independent votes, and correct the majority vote for correlated voters — including the panel shape where it cannot. Closed-form, label-free, numpy only.
 
 ```bash
-pip install git+https://github.com/zensation-ai/voteworth
+pip install voteworth
 ```
 
 ### 🤖 [ZenAI](https://github.com/zensation-ai/zenai) — the platform it came from
