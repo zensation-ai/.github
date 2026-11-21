@@ -26,9 +26,9 @@ claude plugin install zenbrain --marketplace zensation-ai/zenbrain    # memory f
 - Drop it into what you already use: [`@zensation/mcp`](https://www.npmjs.com/package/@zensation/mcp) gives any Model Context Protocol client five memory tools over one local SQLite file, reaching the working, episodic, semantic, procedural and core layers; [`@zensation/ai-sdk`](https://www.npmjs.com/package/@zensation/ai-sdk) is Vercel AI SDK middleware that recalls before the model call and stores the turn after it.
 - New here? Pick a [good first issue](https://github.com/zensation-ai/zenbrain/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) or ask in [Discussions](https://github.com/zensation-ai/zenbrain/discussions).
 
-### 🗳️ [voteworth](https://github.com/zensation-ai/voteworth) — the effective number of independent votes in an LLM judge panel
+### 🗳️ [voteworth](https://github.com/zensation-ai/voteworth) — independence-weighted aggregation for LLM voter and judge panels
 
-Measure error correlation in an LLM judge panel or voter ensemble, report the effective number of independent votes, and correct the majority vote for correlated voters — including the panel shape where it cannot. Closed-form, label-free, numpy only.
+Measure how often two voters of an LLM judge panel or voter ensemble pick the same answer when both break from the plurality, report Kish's effective number of votes by raw agreement, and correct the vote for voters that do, naming the panel shape where it cannot. Closed-form, label-free, numpy only.
 
 ```bash
 pip install voteworth
